@@ -15,3 +15,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app)
 export const notesCollection = collection(db, 'notes')
+/*https://console.firebase.google.com/u/0/project/react-notes-5f7d5/firestore/data/~2Fnotes~2F9aPChGKNzjK1wn9P0VvE?view=query-view&scopeType=collection&scopeName=%2Fnotes&query=*/
